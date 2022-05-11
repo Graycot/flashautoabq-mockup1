@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+
+body {
+  background-color: #F4F4Fa;
+  color: #272727;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+/* ----- */
+/*  Nav  */
+/* ----- */
+
+#nav ul *{
+  display: inline-block;
+}
+
+/* ------ */
+/* Footer */
+/* ------ */
