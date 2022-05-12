@@ -9,6 +9,11 @@ body {
   font-weight: 500;
 }
 
+#main {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
 /* ----- */
 /*  Nav  */
 /* ----- */
@@ -31,6 +36,8 @@ body {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
 }
 
 #nav ul li a{
@@ -39,12 +46,10 @@ body {
 }
 
 #nav ul li:not(:last-child) a{
-  padding-top:0.5rem;
-  padding-bottom:0.5rem;
   border-right: 1px solid #999999;
 }
 
-#nav ul li:hover, #nav ul li:focus{
+#nav ul li:hover, *:focus{
   color: #5a0703;
   border-top: 5px solid #5a0703;
   border-bottom: 5px solid #5a0703;

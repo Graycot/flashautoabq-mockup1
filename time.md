@@ -26,3 +26,12 @@
 
 - Styled navigation bar. Began exploring solutions for a responsive mobile navigation sidebar.
 - Came up with a plan to replace the hiring form with [FormSubmit](https://formsubmit.co/) as an alternative to the "Formidable" WP Plugin currently in use.
+
+## **5/12/2022 2:40am - 5/12/2022 4:31am: 1 hour 51 min**
+
+- Searched and found the slideshow images from the home page of the current website. Downloaded an stored images in `/assets/slideshow/`
+
+- Built and styled slideshow. Specifically, filled in ```<div id="main"></div>```html of homepage. CSS in `index-styles.css` under /*Slideshow*/ section, and the `slideshow.js` Javascript file. ``
+- set maximum width of `#main` to 1150px.
+- set a maximum width of `.container` to 150vh. The purpose of this is to shrink the image slideshow on smaller monitors/tablets/phone screens in order to not drawf the rest of the content on the page.
+- Added :focus to hover triggers to allow for tabbing through interactive elements and to assist accessability via screen-reader
