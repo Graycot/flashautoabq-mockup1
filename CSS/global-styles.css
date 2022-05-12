@@ -43,6 +43,7 @@ body {
 #nav ul li a{
   padding-right: 0.7rem;
   padding-left: 0.7rem;
+  white-space: nowrap;
 }
 
 #nav ul li:not(:last-child) a{

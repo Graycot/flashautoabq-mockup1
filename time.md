@@ -35,3 +35,11 @@
 - set maximum width of `#main` to 1150px.
 - set a maximum width of `.container` to 150vh. The purpose of this is to shrink the image slideshow on smaller monitors/tablets/phone screens in order to not drawf the rest of the content on the page.
 - Added :focus to hover triggers to allow for tabbing through interactive elements and to assist accessability via screen-reader
+
+## **5/12/2022 1:45pm - 5/12/2022 3:04am: 1 hour 19 min**
+
+- Added `whitespace: nowrap` to list elements to prevent multi-line text wrapping in nav bar
+- Ran a [WebsiteCarbon.com](https://www.websitecarbon.com/website/flashautoabq-com/) test to determine how inefficiently the current website uses resources compared to the [new website](https://www.websitecarbon.com/website/flashautoabq-graycot-com/)
+- Ran a GTmetrix scan on the [current Flashautoabq website](https://gtmetrix.com/reports/flashautoabq.com/0oBYjnfo/) VS the currently in development [new website](https://gtmetrix.com/reports/flashautoabq.graycot.com/yx3otuof/):
+- Ran a ShortPixel [image compression optimization](https://shortpixel.com/image-compression-test/#cruncher) of the current website. It determined that 17 images could be compressed to nearly half the current size which will improve page load speed and SEO ranking.
+- Implemented a clickable phone number link and an embedded google maps iframe.
