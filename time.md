@@ -21,3 +21,8 @@
 - Set up google poppins font as default
 - Populated pages (about, contact, faq, fleet-services, reviews, specials) with HTML
 - Began styling `nav.html` in `/CSS/global-styles.css`
+
+## **5/11/2022 8:02pm - 5/11/2022 9:31pm: 1 hour 29 min**
+
+- Styled navigation bar. Began exploring solutions for a responsive mobile navigation sidebar.
+- Came up with a plan to replace the hiring form with [FormSubmit](https://formsubmit.co/) as an alternative to the "Formidable" WP Plugin currently in use.
